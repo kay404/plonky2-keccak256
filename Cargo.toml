@@ -8,9 +8,9 @@ edition = "2021"
 [dependencies]
 anyhow = { version = "1.0.40", default-features = false }
 num = { version = "0.4.0", default-features = false }
-plonky2 = {path = "../plonky2/plonky2"}
-plonky2_ecdsa = {path = "../plonky2-ecdsa"}
-plonky2_u32 = {path = "../plonky2-u32"}
+plonky2 = { git = "https://github.com/xiyu1984/plonky2"}
+plonky2_ecdsa = { git = "httpss://github.com/kay404/plonky2-ecdsa", branch = "patch-1" }
+plonky2_u32 = { git = "https://github.com/kay404/plonky2-u32", branch = "path-1" }
 
 [dev-dependencies]
 hex = "0.4.3"
